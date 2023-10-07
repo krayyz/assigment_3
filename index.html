@@ -22,7 +22,7 @@
             <div class="col-md-4">
                 <h2>Read</h2>
                 <ul id="output" class="list-group">
-                    <!-- Data akan ditampilkan di sini -->
+                    
                 </ul>
             </div>
 
@@ -43,6 +43,21 @@
                     <input type="text" id="deleteInput" class="form-control" placeholder="Enter item id to delete">
                 </div>
                 <button class="btn btn-danger" onclick="deleteItem()">Delete</button>
+            </div>
+        </div>
+
+        <div class="row mt-4">
+            <div class="col-md-4">
+                <h2>Get All</h2>
+                <button class="btn btn-info" onclick="getAllItems()">Get All</button>
+            </div>
+
+            <div class="col-md-4">
+                <h2>Get by ID</h2>
+                <div class="form-group">
+                    <input type="text" id="getByIdInput" class="form-control" placeholder="Enter item id to get">
+                </div>
+                <button class="btn btn-info" onclick="getItemById()">Get by ID</button>
             </div>
         </div>
     </div>
